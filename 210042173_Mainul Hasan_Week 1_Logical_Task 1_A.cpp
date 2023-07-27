@@ -23,10 +23,6 @@ void lessgoo(int visited[])
 }
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     int n, a, b;
     int num = -1; // num of nodes
     cin >> n;     // num of edges
